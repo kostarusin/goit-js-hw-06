@@ -5,14 +5,12 @@ const counterValueElement = document.querySelector('#value');
 const decrementButton = document.querySelector('[data-action="decrement"]');
 
 decrementButton.addEventListener('click', () => {
-  counterValue = counterValue -= 1;
-  counterValueElement.textContent = counterValue;
+  counterValueElement.textContent = counterValue -= 1;
 });
 
 const incrementButton = document.querySelector(
   'button[data-action="increment"]'
 );
 incrementButton.addEventListener('click', () => {
-  counterValue = counterValue += 1;
-  counterValueElement.textContent = counterValue;
+  counterValueElement.textContent = counterValue += 1;
 });

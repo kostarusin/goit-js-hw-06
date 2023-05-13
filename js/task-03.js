@@ -24,5 +24,5 @@ const gallaryListItem = images
 
 gallaryListElement.insertAdjacentHTML('afterbegin', gallaryListItem);
 
-console.log(gallaryListItem);
-console.log(gallaryListElement);
+// console.log(gallaryListItem);
+// console.log(gallaryListElement);
