@@ -1,5 +1,3 @@
-// console.log('task 1');
-
 const listCategoryElement = document.querySelector('#categories');
 console.log(`Number of categories:`, listCategoryElement.children.length);
 
